@@ -7,6 +7,7 @@ const stack = [
 	"MVVM",
 	"Room",
 	"Tailwind",
+	"PHP",
 ];
 
 export default function TechStack() {
