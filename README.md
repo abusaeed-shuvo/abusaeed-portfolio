@@ -45,8 +45,8 @@ Instead of listing everything together, projects are **intentionally grouped** t
 Clone the repo:
 
 ```bash
-git clone https://github.com/abusaeed-shuvo/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/abusaeed-shuvo/abusaeed-portfolio.git
+cd abusaeed-portfolio
 ```
 
 Install dependencies:
