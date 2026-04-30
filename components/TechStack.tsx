@@ -1,13 +1,11 @@
+//components/TechStack.tsx
 const stack = [
-	"Kotlin",
-	"Rust",
-	"Jetpack Compose",
-	"Android",
-	"Linux",
-	"MVVM",
-	"Room",
-	"Tailwind",
+	"Next.js",
+	"React",
 	"PHP",
+	"JavaScript",
+	"Tailwind CSS",
+	"Responsive Design",
 ];
 
 export default function TechStack() {

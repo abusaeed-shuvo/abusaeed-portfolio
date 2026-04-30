@@ -1,23 +1,19 @@
-import ProfileCard from "@/components/ProfileCard";
-import TechStack from "@/components/TechStack";
-import Projects from "@/components/Projects";
-import Experience from "@/components/Experience";
+//app/page.tsx
+import Services from "@/components/Services";
+import Hero from "@/components/Hero";
+import FeaturedWork from "@/components/Projects";
+import Process from "@/components/Process";
+import CTA from "@/components/CTA";
 
 export default function Home() {
 	return (
-		<main className="min-h-screen bg-[#0d1117] text-white p-6">
-			<div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
-				{/* LEFT */}
-				<div className="md:col-span-1 space-y-6">
-					<ProfileCard />
-					<TechStack />
-				</div>
-
-				{/* RIGHT */}
-				<div className="md:col-span-2 space-y-6">
-					<Experience />
-					<Projects />
-				</div>
+		<main className="bg-[#0d1117] text-white">
+			<div className="max-w-6xl mx-auto px-6 space-y-16 py-10">
+				<Hero />
+				<FeaturedWork />
+				<Services />
+				<Process />
+				<CTA />
 			</div>
 		</main>
 	);
