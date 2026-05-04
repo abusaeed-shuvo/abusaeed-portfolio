@@ -5,7 +5,7 @@ export default function Hero() {
 		<section className="relative text-center md:text-left space-y-8">
 			{/* Glow background */}
 			<div className="absolute inset-0 -z-10 flex justify-center">
-				<div className="w-[500px] h-[500px] bg-blue-500/10 blur-3xl rounded-full"></div>
+				<div className="w-125 h-125 bg-blue-500/10 blur-3xl rounded-full"></div>
 			</div>
 
 			<div className="grid md:grid-cols-2 gap-10 items-center">

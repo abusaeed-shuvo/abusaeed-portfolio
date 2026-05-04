@@ -35,6 +35,13 @@ export default function FeaturedWork() {
 			tech: ["Next.js", "Tailwind CSS"],
 			link: "https://spice-garden-smoky.vercel.app/",
 		},
+		{
+			type: "demo",
+			title: "Slotify • SaaS Booking Platform",
+			desc: "Modern SaaS booking system with dashboard, customer CRM, and appointment management UI. Designed with a Stripe-inspired interface focused on scalability and usability.",
+			tech: ["Next.js", "Tailwind CSS", "Framer Motion", "LocalStorage"],
+			link: "https://solotify.vercel.app/",
+		},
 	];
 
 	const clientProjects = projects.filter((p) => p.type === "client");
