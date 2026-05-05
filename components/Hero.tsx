@@ -42,6 +42,14 @@ export default function Hero() {
 						</a>
 
 						<a
+							href="http://www.fiverr.com/s/38XkAZk"
+							target="_blank"
+							className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition"
+						>
+							Book on Fiverr
+						</a>
+
+						<a
 							href="#work"
 							className="px-6 py-2 border border-gray-600 rounded hover:bg-[#161b22]"
 						>

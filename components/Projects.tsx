@@ -48,7 +48,10 @@ export default function FeaturedWork() {
 	const demoProjects = projects.filter((p) => p.type === "demo");
 
 	return (
-		<div className="p-6 border border-[#30363d] rounded-xl bg-[#161b22] space-y-8">
+		<section
+			id="work"
+			className="p-6 border border-[#30363d] rounded-xl bg-[#161b22] space-y-8"
+		>
 			<h2 className="font-semibold">Featured Work</h2>
 
 			{/* 💼 Client Work */}
@@ -81,6 +84,6 @@ export default function FeaturedWork() {
 					))}
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
